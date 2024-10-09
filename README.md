@@ -31,7 +31,7 @@ This project is a simple RESTful API that allows users to manage a to-do list. I
 ## API Endpoints
 
 ### Core Endpoints:
-- **POST** `/todos`  
+- **POST** `/todo`  
   Create a new to-do item.  
   **Body Example:**
   ```json
