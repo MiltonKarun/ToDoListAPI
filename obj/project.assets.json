@@ -1845,11 +1845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ToDoListAPI\\ToDoListAPI.csproj",
+      "projectUniqueName": "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\ToDoListAPI.csproj",
       "projectName": "ToDoListAPI",
-      "projectPath": "C:\\ToDoListAPI\\ToDoListAPI.csproj",
+      "projectPath": "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\ToDoListAPI.csproj",
       "packagesPath": "C:\\Users\\tmilt\\.nuget\\packages\\",
-      "outputPath": "C:\\ToDoListAPI\\obj\\",
+      "outputPath": "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tmilt\\AppData\\Roaming\\NuGet\\NuGet.Config",
