@@ -12,7 +12,7 @@ This API uses Basic Authentication and credentials are below
 
 ### Core Features:
 - **Create a To-Do Item:**  
-  Create a new to-do item by providing at least a `title`, `dueDate`, `status`. Optionally, you can add a `description`.
+  Create a new to-do item by providing at least a `title`. Optionally, user can add a `description`, `dueDate`, `status`.
 - **Retrieve All To-Do Items:**  
   Fetch all the to-do items in the system.
 - **Retrieve a Single To-Do Item:**  
