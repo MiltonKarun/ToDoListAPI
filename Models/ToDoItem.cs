@@ -11,7 +11,7 @@ public class ToDoItem
     [MaxLength(500, ErrorMessage = "Description can be a maximum of 500 characters")]
     public string Description { get; set; }
 
-    [Required(ErrorMessage = "Date is required")]
+    [Required(ErrorMessage = "DateTime is required")]
     public DateTime? DueDate { get; set; }
 
     [Required(ErrorMessage = "Status is required")]

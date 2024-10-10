@@ -1,6 +1,6 @@
 # To-Do List API
 
-This project is a simple RESTful API that allows users to manage a to-do list. It was built using .NET C# and ASP.NET Core. The API supports basic CRUD operations for managing to-do items, along with bonus features like filtering, sorting, and marking items as completed. Additionally, it includes **basic authentication** and **input validation**.
+This project is a simple RESTful API that allows users to manage a to-do list. It was built using .NET C# and ASP.NET Core. The API supports basic CRUD operations for managing to-do items. It also has bonus features like filtering, sorting, and marking items as completed. Additionally, it includes **basic authentication** and **input validation**.
 
 The API will be running on **http://localhost:5199**
 
@@ -24,7 +24,7 @@ This API uses Basic Authentication and credentials are below
   
 ### Bonus Features:
 - **Filtering:**  
-  Filter to-do items by `dueDate` or `status`.
+  Filter to-do items by `dueDate`, `status`.
 - **Sorting:**  
   Sort the to-do items by `title`, `dueDate`.
 - **Authentication:**  
@@ -54,10 +54,10 @@ This API uses Basic Authentication and credentials are below
 - **Get** `/todos/{id}`  
   Retrieves a specific to-do item by its unique ID
 
-- **PUT** `/todo/{id}`  
+- **PUT** `/todos/{id}`  
   Updates an existing to-do item.
 
-- **Delete** `/todo/{id}`  
+- **Delete** `/todos/{id}`  
   Deletes a specific to-do item
 
 ### Bonus Endpoints:

@@ -1,10 +1,3 @@
-C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.csproj.AssemblyReference.cache
-C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.AssemblyInfoInputs.cache
-C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.AssemblyInfo.cs
-C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.csproj.CoreCompileInputs.cache
-C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\tmilt\Documents\ToDoListAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\tmilt\Documents\ToDoListAPI\bin\Debug\net8.0\appsettings.json
 C:\Users\tmilt\Documents\ToDoListAPI\bin\Debug\net8.0\ToDoListAPI.exe
@@ -18,6 +11,14 @@ C:\Users\tmilt\Documents\ToDoListAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swa
 C:\Users\tmilt\Documents\ToDoListAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\tmilt\Documents\ToDoListAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\tmilt\Documents\ToDoListAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.csproj.AssemblyReference.cache
+C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.AssemblyInfoInputs.cache
+C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.AssemblyInfo.cs
+C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.csproj.CoreCompileInputs.cache
+C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.sourcelink.json
 C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\tmilt\Documents\ToDoListAPI\obj\Debug\net8.0\staticwebassets\msbuild.ToDoListAPI.Microsoft.AspNetCore.StaticWebAssets.props
