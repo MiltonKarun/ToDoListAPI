@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3aD6u897eaE=",
+  "dgSpecHash": "qztTrKqFb+E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\ToDoListAPI.csproj",
+  "projectFilePath": "C:\\ToDoListAPI\\ToDoListAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tmilt\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\tmilt\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
