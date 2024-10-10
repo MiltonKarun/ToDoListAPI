@@ -3,7 +3,7 @@ public class ToDoRepository
     private readonly List<ToDoItem> _toDoItems = new List<ToDoItem>();
     private int _nextId = 1;
 
-    public IEnumerable<ToDoItem> GetAll(string? status = null, string? sortBy = null)
+    public IEnumerable<ToDoItem> GetAll(string? status = null, string? sortBy = null, DateTime? dueDate = null)
     {
         var items = _toDoItems.AsEnumerable();
 
@@ -14,6 +14,15 @@ public class ToDoRepository
             else if (status == "pending")
                 items = items.Where(t => !t.Completed);
         }
+
+        if (dueDate.HasValue)
+        {
+            Console.WriteLine(dueDate);
+            items = items.Where(t => t.DueDate.HasValue && t.DueDate.Value.Date == dueDate.Value.Date);
+        }
+
+        if (!string.IsNullOrEmpty(sortBy) && sortBy == "title")
+            items = items.OrderBy(t => t.Title);
 
         if (!string.IsNullOrEmpty(sortBy) && sortBy == "dueDate")
             items = items.OrderBy(t => t.DueDate);

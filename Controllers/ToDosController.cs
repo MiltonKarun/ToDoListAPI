@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 [Route("[controller]")]
 [ApiController]
 [Authorize]
-public class ToDoController : ControllerBase
+public class ToDosController : ControllerBase
 {
     private readonly ToDoRepository _repository;
 
-    public ToDoController(ToDoRepository repository)
+    public ToDosController(ToDoRepository repository)
     {
         _repository = repository;
     }
@@ -20,11 +20,12 @@ public class ToDoController : ControllerBase
         var newToDo = _repository.Create(toDoItem);
         return CreatedAtAction(nameof(GetById), new { id = newToDo.Id }, newToDo);
     }
+    
 
     [HttpGet]
-    public IActionResult GetAll([FromQuery] string? status, [FromQuery] string? sortBy)
+    public IActionResult GetAll([FromQuery] string? status, [FromQuery] string? sortBy, [FromQuery] DateTime? dueDate = null)
     {
-        var todos = _repository.GetAll(status, sortBy);
+        var todos = _repository.GetAll(status, sortBy, dueDate);
         return Ok(todos);
     }
 
@@ -38,7 +39,7 @@ public class ToDoController : ControllerBase
         return Ok(toDo);
     }
 
-    // PUT /todos/{id}
+
     [HttpPut("{id}")]
     public IActionResult Update(int id, [FromBody] ToDoItem updatedToDo)
     {
@@ -49,7 +50,7 @@ public class ToDoController : ControllerBase
         return NoContent();
     }
 
-    // DELETE /todos/{id}
+
     [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
