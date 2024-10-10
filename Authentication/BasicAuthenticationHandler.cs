@@ -35,7 +35,6 @@ public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSc
                 var username = credentials[0];
                 var password = credentials[1];
 
-                // Here, validate the username and password. This is just an example:
                 if (username == "testuser" && password == "password123")
                 {
                     var claims = new[] {
