@@ -3,6 +3,7 @@ public class ToDoRepository
     private readonly List<ToDoItem> _toDoItems = new List<ToDoItem>();
     private int _nextId = 1;
 
+    // Get all to-do items based on parameters
     public IEnumerable<ToDoItem> GetAll(string? status = null, string? sortBy = null, DateTime? dueDate = null)
     {
         var items = _toDoItems.AsEnumerable();
@@ -30,8 +31,10 @@ public class ToDoRepository
         return items;
     }
 
+    // Get a to-do item based on given ID
     public ToDoItem GetById(int id) => _toDoItems.FirstOrDefault(t => t.Id == id);
 
+    // Create a new to-do item
     public ToDoItem Create(ToDoItem toDoItem)
     {
         toDoItem.Id = _nextId++;
@@ -39,6 +42,7 @@ public class ToDoRepository
         return toDoItem;
     }
 
+    // Update a to-do item
     public void Update(ToDoItem toDoItem)
     {
         var existing = GetById(toDoItem.Id);
@@ -51,5 +55,6 @@ public class ToDoRepository
         }
     }
 
+    // Delete a to-do item
     public void Delete(int id) => _toDoItems.RemoveAll(t => t.Id == id);
 }
