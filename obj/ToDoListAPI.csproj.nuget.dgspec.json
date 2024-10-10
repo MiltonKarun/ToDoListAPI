@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\ToDoListAPI.csproj": {}
+    "C:\\ToDoListAPI\\ToDoListAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\ToDoListAPI.csproj": {
+    "C:\\ToDoListAPI\\ToDoListAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\ToDoListAPI.csproj",
+        "projectUniqueName": "C:\\ToDoListAPI\\ToDoListAPI.csproj",
         "projectName": "ToDoListAPI",
-        "projectPath": "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\ToDoListAPI.csproj",
+        "projectPath": "C:\\ToDoListAPI\\ToDoListAPI.csproj",
         "packagesPath": "C:\\Users\\tmilt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tmilt\\Documents\\ToDoListAPI\\obj\\",
+        "outputPath": "C:\\ToDoListAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tmilt\\AppData\\Roaming\\NuGet\\NuGet.Config",
